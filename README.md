@@ -35,5 +35,5 @@ FrontEnd.html
 输入产生式E->E+E，E->E/E，E->E-E，E->E*E，E->(E) ，E->i，生成SLR分析表：
  ![](https://github.com/Greedddd/GrammaticalAnalyzer/raw/master/image/3.png)
 
-输入句子i+i-i/i*i，进行语法分析：
+输入句子i+i-i/i*i，进行语法分析：<br>
  ![](https://github.com/Greedddd/GrammaticalAnalyzer/raw/master/image/4.png)
