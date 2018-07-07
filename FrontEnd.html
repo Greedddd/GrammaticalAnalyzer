@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>语法分析器</title>
+        <link rel="stylesheet" type="text/css" href="./FrontEnd.css">
+    </head>
+
+    <body>
+        <header>语法分析器</header>
+		<div class="container">
+			<div class="row">
+				<div class="TextArea-Box">
+					<div class="TextArea">
+						<div class="AreaBody half-Body">
+							<div id="tablebox">
+								<table id="AnalyticalStatement"></table>
+							</div>
+						</div>
+						<div class="AreaBody">
+                           	<textarea id="productions" placeholder="在此输入形如E->A的产生式，每个产生式间用换行符分隔"></textarea>
+						</div>
+						<div class="AreaHeader">
+							<div class="Header-row">
+								<div class="cell left-cell">
+									<button id="clear" onclick="Clearproductions()">清空</button>
+								</div>
+								<div class="cell left-cell">
+									<button id="productionsumit" onclick="getSLR()">分析表构建</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="TextArea-Box">
+					<div class="TextArea">
+						<div class="AreaBody half-Body-right" style="border-top:1px solid #ddd;">
+							<form action="">
+								<textarea readonly id="resultmsg"></textarea>
+							</form>
+						</div>
+						<div class="InputLine">
+                            <div class="input-cell left-cell">
+                                <input type="text" id="inputString">
+                            </div>
+                            <div class="submit-cell right-cell">    
+                                <button id="Stringsubmit" onclick="analyze()">输入串分析</button>
+                            </div> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>Make By Greed</footer>
+        <script src="./GrammaticalAnalyzer1.0.js"></script>
+        <script src="./controls.js"></script>
+    </body>
+</html>

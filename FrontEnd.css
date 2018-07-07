@@ -1,0 +1,210 @@
+@charset "UTF-8";
+* {
+	box-sizing:border-box;
+}
+html {
+	height:100%;
+}
+
+body {
+	margin:0;
+	/* background: #7e7474; */
+	background: #333333;
+}
+
+header {
+	width:100%;
+	height:60px;
+	text-align:center;	
+	font-size:26px;
+	margin:0 0 20px 0;
+	padding:8px 0;
+	background-color:#333333;
+	color:#ffffff;
+}
+
+footer {
+	width:100%;
+	text-align:center;
+	position:relative;
+	margin:20px 0 0 0;
+	padding:8px 0;
+	clear:both;
+	border-top:1px solid rgba(158,122,122,0.2);
+	color: white;
+}
+
+.container {
+	width:98%;
+	padding:0 15px 0 15px;
+	margin-left:auto;
+	margin-right:auto;
+	display:table;
+}
+
+.row {
+	display:table-row;
+}
+.Header-row {
+	height:100%;
+	width:100%;
+}
+.cell {
+	float:left;
+	width:50%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+}
+.left-cell {
+	text-align:left;
+}
+.right-cell {
+	text-align:right;
+}
+button {
+	height:100%;
+	width:40%;
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius:10px;
+	font-size:16px;
+	outline:none;
+}
+button:hover {
+	cursor:pointer;
+}
+#productionsumit {
+	background-color:#e2444c;;
+	color:#fff;
+}
+#productionsumit:hover {
+	background-color:rgb(184, 49, 49);
+}
+
+.TextArea-Box {
+	height:640px;
+	width:50%;
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+}
+.TextArea {
+	height:100%;
+	border:1px solid #dddddd;
+	border-radius:4px;
+	box-shadow:0 1px 1px 0 rgba(0,0,0,0.5);
+}
+.AreaHeader {
+	height:10%;
+	width:100%;
+	padding: 10px 15px;
+	background-color:#383535;
+	border-color:#dddddd;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow:0 1px 1px 0 rgba(0,0,0,0.5);
+}
+.AreaBody {
+	height:40%;
+	width:100%;
+    padding:15px;
+		flex:5;
+		background:  #7e7474;
+		color: white;
+}
+
+.InputLine{
+    border-top: 1px solid rgba(158,122,122,0.2);
+    height: 10%;
+    width: 100%;
+    padding:15px;
+}
+.input-cell{
+    height: 100%;
+    width: 75%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+		/* border: 1px solid #ddd; */
+		font-size: 16px;
+}
+.submit-cell{
+    height: 100%;
+    width: 25%;
+    float: left;
+    padding-left: 5px;
+}
+#inputString{
+    width: 100%;
+    height:100%;
+    border:none;
+		outline: none;
+		background: #7e7474;
+		color: white;
+}
+#Stringsubmit{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+		background-color: #e2444c;
+		color: white;
+}
+#Stringsubmit:hover{
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.5);
+}
+form {
+	height:100%;
+	width:100%;
+	flex:5;
+}
+.half-Body {
+	height:50%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.8)
+}
+.half-Body-right {
+	height:90%;
+}
+textarea {
+	height:100%;
+	width:100%;
+	border:none;
+	resize:none;
+		font: 400 16px Arial;
+		background:  #7e7474;
+		color: white;
+}
+textarea:focus {
+	outline:none;
+}
+
+#tablebox{
+	height:100%;
+	width:100%;
+	overflow-y:auto;
+	color: white;
+}
+table {
+	min-width: 100%;
+	border-collapse:collapse;
+}
+tr {
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd; 
+	height:30px;
+}
+td {
+	border: 1px solid #ddd;
+	text-align:center;
+	font-size:16px;
+	padding-top:7px;
+	padding-bottom:7px;
+	min-width: 40px;
+	color: white;
+}
+
+#clear {
+	background-color:#808cc0;;
+}
+#clear:hover {
+	background-color:#4f6bb9;
+}
